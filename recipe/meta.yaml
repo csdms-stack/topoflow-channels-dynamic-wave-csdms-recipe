@@ -1,4 +1,4 @@
-{% set name = "csdms-topoflow" %}
+{% set name = "csdms-topoflow-channels-dynamic-wave" %}
 {% set version = "3.4" %}
 
 package:
