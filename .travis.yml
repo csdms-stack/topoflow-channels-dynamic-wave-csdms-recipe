@@ -20,6 +20,7 @@ install:
 - bash ci/travis/install_python.sh $HOME/miniconda
 - export PATH="$HOME/miniconda/bin:$PATH"
 script:
+- conda install conda-build=1
 - conda build recipe -c conda-forge -c csdms-stack
 after_success:
 - if [[ $TRAVIS_BRANCH == "master" ]]; then export CHANNEL="main"; fi
