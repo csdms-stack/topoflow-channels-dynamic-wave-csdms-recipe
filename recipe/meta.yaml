@@ -12,9 +12,11 @@ requirements:
   build:
     - bmi-babel
     - topoflow
+    - isl <=0.12.2
   run:
     - bmi-babel
     - topoflow
+    - isl <=0.12.2
 
 test:
   requires:
