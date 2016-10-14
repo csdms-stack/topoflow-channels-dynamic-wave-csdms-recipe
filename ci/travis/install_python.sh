@@ -20,7 +20,7 @@ export PATH="$PREFIX/bin:$PATH"
 hash -r
 conda config --set always_yes yes --set changeps1 no
 conda install python=$TRAVIS_PYTHON_VERSION
-conda install -q conda-build
+conda install -q conda-build=1
 conda install -q anaconda-client
 conda install -q coverage
 conda install -q sphinx
